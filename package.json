@@ -1,0 +1,19 @@
+{
+  "name": "playwrightwithaxecore",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "playwright test axecore --project=chromium",
+    "test-head": "playwright test axecore --headed --project=chromium"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "^1.29.0"
+  },
+  "dependencies": {
+    "@axe-core/playwright": "^4.5.2"
+  }
+}
